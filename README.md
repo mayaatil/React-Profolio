@@ -1,4 +1,4 @@
-# React-Profolio
+# React-Portfolio
 
 ## Description
 

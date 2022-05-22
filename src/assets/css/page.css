@@ -5,6 +5,10 @@ body {
   background-color: #f9f7f1;
 }
 
+.font {
+  font-family: "Abril Fatface", cursive;
+}
+
 header {
   padding: 20px;
   background-color: #f9f7f1;
@@ -57,7 +61,8 @@ img {
 
 /* text-align: center;
 } */
-*/ .projetcs {
+
+.projects {
   text-align: center;
 }
 
@@ -68,10 +73,15 @@ img {
   padding: 10px;
 }
 
+.boxalign {
+  text-align: center;
+}
+
+/* 
 .slideshow-img {
   width: 800px;
   height: 500px;
-}
+} */
 
 .github-display {
   height: 800px;
@@ -82,17 +92,22 @@ img {
   border: solid 4px #2f2f2f;
   margin: 25px;
 }
-
+/* 
 img:hover {
   background-color: #2f2f2f;
-}
+} */
 
-header h1 {
+/* header h1 {
+  display: inline-block;
+  font-size: px;
+} */
+
+.h1 {
   display: inline-block;
   font-size: px;
 }
 
-h2 {
+.h2 {
   text-align: center;
 }
 
@@ -105,7 +120,15 @@ h2 {
   margin: 25px;
 }
 
-header nav {
+/* header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Abril Fatface", cursive;
+  font-size: 20px;
+} */
+
+.nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -113,11 +136,20 @@ header nav {
   font-size: 20px;
 }
 
-header nav ul {
+/* header nav ul {
   list-style-type: none;
 }
 
 header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+} */
+
+.ul {
+  list-style-type: none;
+}
+
+.li {
   display: inline-block;
   margin-left: 25px;
 }

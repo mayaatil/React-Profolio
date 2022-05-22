@@ -11,15 +11,16 @@ import Employee from "../assets/images/Screenshot (17).png";
 
 export const Carousel = () => {
   const imageStyle = {
-    width: "18rem",
-    border: "solid #2f2f2f; 5px",
+    width: "50rem",
+    height: "50rem",
+    border: "solid #2f2f2f; 10px",
     padding: "15px",
     resizeMode: "contain",
   };
 
   return (
     <div className="wrapper">
-      <h2 id="basic-example-heading">Popular Games</h2>
+      <h2 className="center h2">Projects</h2>
 
       <Splide
         options={{
@@ -29,6 +30,7 @@ export const Carousel = () => {
         }}
         aria-labelledby="basic-example-heading"
         onMoved={(splide, newIndex) => {}}
+        className="projects"
       >
         <SplideSlide>
           <h4>Password Generator</h4>
@@ -46,11 +48,6 @@ export const Carousel = () => {
           <h4>Money Flagz</h4>
           <div>Learn more about our world flags.</div>
           <img src={Money} alt={"Money Flagz"} style={imageStyle} />
-        </SplideSlide>
-        <SplideSlide>
-          <h4>RecipeMe</h4>
-          <div>Don't know what to cook? RecipeMe is here for you.</div>
-          <img src={Recipe} alt={"RecipeMe"} style={imageStyle} />
         </SplideSlide>
         <SplideSlide>
           <h4>Note Taker</h4>
